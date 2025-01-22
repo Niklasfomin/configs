@@ -1,0 +1,289 @@
+{
+
+  "editor.formatOnSave": true,
+
+  "editor.suggest.insertMode": "replace",
+
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+
+  "editor.linkedEditing": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "launch": {},
+
+  "[json]": {},
+
+  "editor.minimap.enabled": false,
+
+  "breadcrumbs.enabled": false,
+
+  "update.showReleaseNotes": false,
+
+  "zenMode.hideLineNumbers": false,
+
+  "vim.leader": "<Space>",
+
+  "vim.hlsearch": true,
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+
+    // NAVIGATION
+
+    // switch b/w buffers
+
+    {
+
+      "before": ["<S-h>"],
+
+      "commands": [":bprevious"]
+
+    },
+
+    {
+
+      "before": ["<S-l>"],
+
+      "commands": [":bnext"]
+
+    },
+
+    // splits
+
+    {
+
+      "before": ["leader", "v"],
+
+      "commands": [":vsplit"]
+
+    },
+
+    {
+
+      "before": ["leader", "s"],
+
+      "commands": [":split"]
+
+    },
+
+    // panes
+
+    {
+
+      "before": ["leader", "h"],
+
+      "commands": ["workbench.action.focusLeftGroup"]
+
+    },
+
+    {
+
+      "before": ["leader", "j"],
+
+      "commands": ["workbench.action.focusBelowGroup"]
+
+    },
+
+    {
+
+      "before": ["leader", "k"],
+
+      "commands": ["workbench.action.focusAboveGroup"]
+
+    },
+
+    {
+
+      "before": ["leader", "l"],
+
+      "commands": ["workbench.action.focusRightGroup"]
+
+    },
+
+    // NICE TO HAVE
+
+    {
+
+      "before": ["leader", "w"],
+
+      "commands": [":w!"]
+
+    },
+
+    {
+
+      "before": ["leader", "q"],
+
+      "commands": [":q!"]
+
+    },
+
+    {
+
+      "before": ["leader", "x"],
+
+      "commands": [":x!"]
+
+    },
+
+    {
+
+      "before": ["[", "d"],
+
+      "commands": ["editor.action.marker.prev"]
+
+    },
+
+    {
+
+      "before": ["]", "d"],
+
+      "commands": ["editor.action.marker.next"]
+
+    },
+
+    {
+
+      "before": ["<leader>", "c", "a"],
+
+      "commands": ["editor.action.quickFix"]
+
+    },
+
+    {
+
+      "before": ["leader", "f"],
+
+      "commands": ["workbench.action.quickOpen"]
+
+    },
+
+    {
+
+      "before": ["leader", "p"],
+
+      "commands": ["editor.action.formatDocument"]
+
+    },
+
+    {
+
+      "before": ["g", "h"],
+
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+
+    }
+
+  ],
+
+  "vim.visualModeKeyBindings": [
+
+    // Stay in visual mode while indenting
+
+    {
+
+      "before": ["<"],
+
+      "commands": ["editor.action.outdentLines"]
+
+    },
+
+    {
+
+      "before": [">"],
+
+      "commands": ["editor.action.indentLines"]
+
+    },
+
+    // Move selected lines while staying in visual mode
+
+    {
+
+      "before": ["J"],
+
+      "commands": ["editor.action.moveLinesDownAction"]
+
+    },
+
+    {
+
+      "before": ["K"],
+
+      "commands": ["editor.action.moveLinesUpAction"]
+
+    },
+
+    // toggle comment selection
+
+    {
+
+      "before": ["leader", "c"],
+
+      "commands": ["editor.action.commentLine"]
+
+    }
+
+  ],
+
+  "editor.fontSize": 20,
+
+  "workbench.startupEditor": "none",
+
+  "workbench.colorTheme": "Bashful Dark Theme",
+
+  "window.commandCenter": false,
+
+  "workbench.layoutControl.enabled": false,
+
+  "redhat.telemetry.enabled": false,
+
+  "editor.accessibilitySupport": "off",
+
+  "workbench.iconTheme": "file-icons",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "workbench.editor.showTabs": "single",
+
+  "editor.tabCompletion": "on",
+
+  "diffEditor.hideUnchangedRegions.enabled": true,
+
+  "database-client.autoSync": true,
+
+  "terminal.integrated.fontSize": 25,
+
+  "files.autoSave": "onFocusChange",
+
+  "workbench.activityBar.location": "top",
+
+  "git.autofetch": true,
+
+  "fenix.repos": [
+
+    "https://raw.githubusercontent.com/FenixTemplates/Default/master/fenix.json"
+
+  ],
+
+  "fenix.runCommands": "ask",
+
+  "git.enableSmartCommit": true,
+
+  "workbench.sideBar.location": "right",
+
+  "cmake.showOptionsMovedNotification": false,
+
+  "editor.renderWhitespace": "all",
+
+  "go.toolsManagement.autoUpdate": true,
+
+  "vs-kubernetes": {
+
+    "vs-kubernetes.minikube-show-information-expiration": "2025-07-16T08:52:50.152Z"
+
+  }
+
+}
+
+
